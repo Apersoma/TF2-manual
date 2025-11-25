@@ -1,0 +1,47 @@
+{
+  "Scout": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Scout)}"
+  },
+  "Soldier": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Soldier)}"
+  },
+  "Pyro": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Pyro)}"
+  },
+  "Demoman": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Demoman)}"
+  },
+  "Heavy": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Heavy)}"
+  },
+  "Engineer": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Engineer)}"
+  },
+  "Medic": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Medic)}"
+  },
+  "Sniper": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Sniper)}"
+  },
+  "Spy": {
+    "starting": false,
+    "connects_to": [],
+    "requires": "{OptOne(Spy)}"
+  }
+}

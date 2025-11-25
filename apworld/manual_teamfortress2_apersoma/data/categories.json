@@ -1,0 +1,71 @@
+{
+  "Stock": {
+    "hidden": true,
+    "yaml_option": ["Stocksanity"]
+  },
+  "StockLocation": {
+    "hidden": true
+  },
+  "Cross-Class Weapons": {
+    "hidden":  true,
+    "yaml_option": ["CrossClassWeapons"]
+  },
+  "Not Cross-Class Weapons": {
+    "hidden":  true,
+    "yaml_option": ["!CrossClassWeapons"]
+  },
+  "GrappleKill": {
+    "hidden": true,
+    "yaml_option": ["GrappleKill"]
+  },
+  "GrappleItem": {
+    "hidden": true,
+    "yaml_option": ["UnlockGrapple"]
+  },
+
+  "MadMilkAssist": {
+    "hidden": true,
+    "yaml_option": ["MadMilkAssist"]
+  },
+
+  "MantreadsKill": {
+    "hidden": true,
+    "yaml_option": ["MantreadsKill"]
+  },
+  "BannerAssists": {
+    "hidden": true,
+    "yaml_option": ["BannerAssists"]
+  },
+
+  "ThermalThrusterKill": {
+    "hidden": true,
+    "yaml_option": ["ThermalThrusterKill"]
+  },
+  "GasPasserKill": {
+    "hidden": true,
+    "yaml_option": ["GasPasserKill"]
+  },
+
+  "MediGunChecks": {
+    "hidden": true,
+    "yaml_option": ["MediGunChecks"]
+  },
+
+  "JarateAssist":  {
+    "hidden": true,
+    "yaml_option": ["JarateAssist"]
+  },
+
+  "SapperDestructions": {
+    "hidden": true,
+    "yaml_option": ["SapperDestructions"]
+  },
+
+  "SoldierDamagingPrimary": {
+    "hidden": true
+  },
+
+  "Class Unlocks": {
+    "hidden": false
+  }
+}

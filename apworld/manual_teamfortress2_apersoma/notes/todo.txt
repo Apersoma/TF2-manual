@@ -1,0 +1,23 @@
+classes = ["Scout", "Soldier", "Pyro", "Demoman", "Heavy", "Engineer", "Medic", "Sniper", "Spy"]
+
+
+--1. Make sure it works
+--2. Implement Starting Class Count
+--3. Implement sapper kill toggle
+--5. Implement stomp kill toggle
+--6. Implement gas passer kill toggle
+--7. Implement toggle for whether weapon unlocks are shared across classes if the weapon is
+--8. Implement stock sanity
+--9. Implement assist kill toggle for milk & piss
+--10. Implement Grappling Hook Kill Toggle
+--11. Implement Grappling Hook Item Toggle
+12. Class Goal Completion and Class 100% completion location options
+12. Slotsanity
+13. Progression Items Only Option
+14. Gamemodesanity
+15. Starting Gamemode Count
+16. Medieval Mode only option
+17. Start w/ Medieval Mode then unlock everything else
+18. Customizable location disabling
+19. VHS support
+20. Mapsanity?

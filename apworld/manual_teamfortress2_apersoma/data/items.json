@@ -1,0 +1,1560 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data" : [
+    {
+      "count": 1,
+      "name": "Grappling Hook",
+      "category": [
+        "Misc",
+        "GrappleItem"
+      ],
+      "progression_skip_balancing": true,
+      "_comment": "Skip balancing because it used for a single check and can't be required to goal."
+    },
+    {
+      "count": 1,
+      "name": "Scattergun",
+      "category": [
+        "Scout (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Force-A-Nature",
+      "category": [
+        "Scout (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shortstop",
+      "category": [
+        "Scout (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Soda Popper",
+      "category": [
+        "Scout (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Baby Face's Blaster",
+      "category": [
+        "Scout (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Back Scatter",
+      "category": [
+        "Scout (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pistol (Scout)",
+      "category": [
+        "Scout (Secondaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Winger",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pretty Boy's Pocket Pistol",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Flying Guillotine",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bonk! Atomic Punch",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Crit-a-Cola",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Mad Milk",
+      "category": [
+        "Scout (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bat",
+      "category": [
+        "Scout (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sandman",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Candy Cane",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Boston Basher",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sun-on-a-Stick",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Atomizer",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wrap Assassin",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Scout",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Rocket Launcher",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Direct Hit",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Black Box",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Rocket Jumper",
+      "category": [
+        "Soldier (Primaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Liberty Launcher",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cow Mangler 5000",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Air Strike",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shotgun (Soldier)",
+      "category": [
+        "Soldier (Secondaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Reserve Shooter (Soldier)",
+      "category": [
+        "Soldier (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Buff Banner",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gunboats",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Battalion's Backup",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Concheror",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Mantreads",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Righteous Bison",
+      "category": [
+        "Soldier (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "B.A.S.E. Jumper (Soldier)",
+      "category": [
+        "Soldier (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Panic Attack (Soldier)",
+      "category": [
+        "Soldier (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shovel",
+      "category": [
+        "Soldier (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Equalizer",
+      "category": [
+        "Soldier (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pain Train (Soldier)",
+      "category": [
+        "Soldier (Melees)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Half-Zatoichi (Soldier)",
+      "category": [
+        "Soldier (Melees)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Disciplinary Action",
+      "category": [
+        "Soldier (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Market Gardener",
+      "category": [
+        "Soldier (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Escape Plan",
+      "category": [
+        "Soldier (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Soldier",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Flame Thrower",
+      "category": [
+        "Pyro (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Backburner",
+      "category": [
+        "Pyro (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Degreaser",
+      "category": [
+        "Pyro (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Phlogistinator",
+      "category": [
+        "Pyro (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Dragon's Fury",
+      "category": [
+        "Pyro (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shotgun (Pyro)",
+      "category": [
+        "Pyro (Secondaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Reserve Shooter (Pyro)",
+      "category": [
+        "Pyro (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Flare Gun",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Detonator",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Manmelter",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Scorch Shot",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Panic Attack (Pyro)",
+      "category": [
+        "Pyro (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Thermal Thruster",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gas Passer",
+      "category": [
+        "Pyro (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fire Axe",
+      "category": [
+        "Pyro (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Axtinguisher",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Homewrecker",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Powerjack",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Back Scratcher",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sharpened Volcano Fragment",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Third Degree",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Neon Annihilator",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Hot Hand",
+      "category": [
+        "Pyro (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pyro",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Grenade Launcher",
+      "category": [
+        "Demoman (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Loch-n-Load",
+      "category": [
+        "Demoman (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ali Baba's Wee Booties",
+      "category": [
+        "Demoman (Primaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Loose Cannon",
+      "category": [
+        "Demoman (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Iron Bomber",
+      "category": [
+        "Demoman (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "B.A.S.E. Jumper (Demoman)",
+      "category": [
+        "Demoman (Primaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Stickybomb Launcher",
+      "category": [
+        "Demoman (Secondaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Scottish Resistance",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Chargin' Targe",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sticky Jumper",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Splendid Screen",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Tide Turner",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Quickiebomb Launcher",
+      "category": [
+        "Demoman (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bottle",
+      "category": [
+        "Demoman (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eyelander",
+      "category": [
+        "Demoman (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Scotsman's Skullcutter",
+      "category": [
+        "Demoman (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pain Train (Demoman)",
+      "category": [
+        "Demoman (Melees)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Claidheamh Mor",
+      "category": [
+        "Demoman (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Half-Zatoichi (Demoman)",
+      "category": [
+        "Demoman (Melees)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Persian Persuader",
+      "category": [
+        "Demoman (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Demoman",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Minigun",
+      "category": [
+        "Heavy (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Natascha",
+      "category": [
+        "Heavy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Brass Beast",
+      "category": [
+        "Heavy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Tomislav",
+      "category": [
+        "Heavy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Huo-Long Heater",
+      "category": [
+        "Heavy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shotgun (Heavy)",
+      "category": [
+        "Heavy (Secondaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Family Business",
+      "category": [
+        "Heavy (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sandvich",
+      "category": [
+        "Heavy (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Dalokohs Bar",
+      "category": [
+        "Heavy (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Buffalo Steak Sandvich",
+      "category": [
+        "Heavy (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Panic Attack (Heavy)",
+      "category": [
+        "Heavy (Secondaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Second Banana",
+      "category": [
+        "Heavy (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Fists",
+      "category": [
+        "Heavy (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Killing Gloves of Boxing",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gloves of Running Urgently",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Warrior's Spirit",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Fists of Steel",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eviction Notice",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Holiday Punch",
+      "category": [
+        "Heavy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Heavy",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Shotgun (Engineer)",
+      "category": [
+        "Engineer (Primaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Frontier Justice",
+      "category": [
+        "Engineer (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Widowmaker",
+      "category": [
+        "Engineer (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pomson 6000",
+      "category": [
+        "Engineer (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Rescue Ranger",
+      "category": [
+        "Engineer (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Panic Attack (Engineer)",
+      "category": [
+        "Engineer (Primaries)",
+        "Not Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pistol (Engineer)",
+      "category": [
+        "Engineer (Secondaries)",
+        "Not Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wrangler",
+      "category": [
+        "Engineer (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Short Circuit",
+      "category": [
+        "Engineer (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wrench",
+      "category": [
+        "Engineer (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gunslinger",
+      "category": [
+        "Engineer (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Southern Hospitality",
+      "category": [
+        "Engineer (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Jag",
+      "category": [
+        "Engineer (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Eureka Effect",
+      "category": [
+        "Engineer (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Engineer",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Syringe Gun",
+      "category": [
+        "Medic (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Blutsauger",
+      "category": [
+        "Medic (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Crusader's Crossbow",
+      "category": [
+        "Medic (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Overdose",
+      "category": [
+        "Medic (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Medi Gun",
+      "category": [
+        "Medic (Secondaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Kritzkrieg",
+      "category": [
+        "Medic (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Quick-Fix",
+      "category": [
+        "Medic (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Vaccinator",
+      "category": [
+        "Medic (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bonesaw",
+      "category": [
+        "Medic (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ubersaw",
+      "category": [
+        "Medic (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Vita-Saw",
+      "category": [
+        "Medic (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Amputator",
+      "category": [
+        "Medic (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Solemn Vow",
+      "category": [
+        "Medic (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Medic",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Sniper Rifle",
+      "category": [
+        "Sniper (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Huntsman",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sydney Sleeper",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bazaar Bargain",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Machina",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Hitman's Heatmaker",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Classic",
+      "category": [
+        "Sniper (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "SMG",
+      "category": [
+        "Sniper (Secondaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cleaner's Carbine",
+      "category": [
+        "Sniper (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Jarate",
+      "category": [
+        "Sniper (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Razorback",
+      "category": [
+        "Sniper (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Darwin's Danger Shield",
+      "category": [
+        "Sniper (Secondaries)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Cozy Camper",
+      "category": [
+        "Sniper (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Kukri",
+      "category": [
+        "Sniper (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Tribalman's Shiv",
+      "category": [
+        "Sniper (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bushwacka",
+      "category": [
+        "Sniper (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shahanshah",
+      "category": [
+        "Sniper (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sniper",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Revolver",
+      "category": [
+        "Spy (Primaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ambassador",
+      "category": [
+        "Spy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "L'Etranger",
+      "category": [
+        "Spy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Enforcer",
+      "category": [
+        "Spy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Diamondback",
+      "category": [
+        "Spy (Primaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Sapper",
+      "category": [
+        "Spy (Secondaries)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Red-Tape Recorder",
+      "category": [
+        "Spy (Secondaries)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Cloak and Dagger",
+      "category": [
+        "Spy (Watches)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Knife",
+      "category": [
+        "Spy (Melees)",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Dead Ringer",
+      "category": [
+        "Spy (Watches)"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Your Eternal Reward",
+      "category": [
+        "Spy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Conniver's Kunai",
+      "category": [
+        "Spy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Big Earner",
+      "category": [
+        "Spy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spy",
+      "category": [
+        "Class Unlocks"
+      ],
+      "progression": true,
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Fan O'War",
+      "category": [
+        "Scout (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Beggar's Bazooka",
+      "category": [
+        "Soldier (Primaries)",
+        "SoldierDamagingPrimary"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Ullapool Caber",
+      "category": [
+        "Demoman (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spy-cicle",
+      "category": [
+        "Spy (Melees)"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Shotgun",
+      "category": [
+        "Engineer (Primaries)",
+        "Soldier (Secondaries)",
+        "Pyro (Secondaries)",
+        "Heavy (Secondaries)",
+        "Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Panic Attack",
+      "category": [
+        "Engineer (Primaries)",
+        "Soldier (Secondaries)",
+        "Pyro (Secondaries)",
+        "Heavy (Secondaries)",
+        "Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Reserve Shooter",
+      "category": [
+        "Soldier (Secondaries)",
+        "Pyro (Secondaries)",
+        "Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pistol",
+      "category": [
+        "Scout (Secondaries)",
+        "Engineer (Primaries)",
+        "Cross-Class Weapons",
+        "Stock"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Pain Train",
+      "category": [
+        "Soldier (Melees)",
+        "Demoman (Melees)",
+        "Cross-Class Weapons"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "B.A.S.E. Jumper",
+      "category": [
+        "Soldier (Secondaries)",
+        "Demoman (Primaries)",
+        "Cross-Class Weapons"
+      ],
+      "filler": true
+    },
+    {
+      "count": 1,
+      "name": "Half-Zatoichi",
+      "category": [
+        "Soldier (Melees)",
+        "Demoman (Melees)",
+        "Cross-Class Weapons"
+      ],
+      "progression": true
+    }
+  ]
+}

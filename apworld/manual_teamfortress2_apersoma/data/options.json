@@ -1,0 +1,324 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "_goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "_filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "Scout": {
+            "type": "Range",
+            "description": [
+               "How different locations for Scout need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 19,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Soldier": {
+            "type": "Range",
+            "description": [
+                "How different locations for Soldier need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 22,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Pyro": {
+            "type": "Range",
+            "description": [
+                "How different locations for Pyro need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 23,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Demoman": {
+            "type": "Range",
+            "description": [
+                "How different locations for Demoman need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 18,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Heavy": {
+            "type": "Range",
+            "description": [
+                "How different locations for Heavy need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 15,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Engineer": {
+            "type": "Range",
+            "description": [
+                "How different locations for Engineer need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 15,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Medic": {
+            "type": "Range",
+            "description": [
+                "How different locations for Medic need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 13,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Sniper": {
+            "type": "Range",
+            "description": [
+                "How different locations for Sniper need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 6,
+            "range_end": 14,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "Spy": {
+            "type": "Range",
+            "description": [
+                "How different locations for Spy need to be completed to goal."
+            ],
+            "range_start": 0,
+            "default": 5,
+            "range_end": 12,
+            "group": "Required Weapon Kills",
+            "visibility": [
+                "template"
+            ]
+        },
+        "StartingClassCount": {
+            "description": "How many class items you start with.",
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 9,
+            "default": 1,
+            "group": "Starting Items",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        },
+        "StartingClassWeaponCount": {
+            "description": "How many TF2 items for a class you start with that are progression do you start with. Does not include stock if stocksanity is disabled.\nDoes not include items given by other yaml options.",
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 0,
+            "group": "Starting Items",
+            "visibility": [
+                "complex_ui",
+                "template"
+            ]
+        },
+        "StartingClassItemCount": {
+            "description": "How many TF2 items for a class you start with do you start with. Does not include stock if stocksanity is disabled.\nDoes not include items given by other yaml options.",
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 0,
+            "group": "Starting Items",
+            "visibility": [
+                "complex_ui",
+                "template"
+            ]
+        },
+        "StartingWeaponCount": {
+            "description": "How many TF2 items that are progression do you start with. Does not include stock if stocksanity is disabled.\nDoes not include items given by other yaml options.",
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 0,
+            "group": "Starting Items",
+            "visibility": [
+                "complex_ui",
+                "template"
+            ]
+        },
+        "StartingItemCount": {
+            "description": "How many TF2 items do you start with. Does not include stock if stocksanity is disabled.\nDoes not include items given by other yaml options.",
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 1,
+            "group": "Starting Items",
+            "visibility": [
+                "complex_ui",
+                "template"
+            ]
+        },
+        "Stocksanity": {
+            "description": "Toggle whether or not you start with stock weapons. \nRecommended to enable CrossClassWeapons if this is enabled to ensure generation especially in smaller multiworlds.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "CrossClassWeapons": {
+            "description": "Weapons that are used across multiple classes are combined into 1 item.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
+        },
+        "UnlockGrapple": {
+            "description": "Include item for unlocking the Mannpower grapple hook.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "GrappleKill": {
+            "description": "Include check for killing someone with the Mannpower grapple hook",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "MadMilkAssist": {
+            "description": "Include check for getting an assist with the Mad Milk",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "BannerAssists": {
+            "description": "Include checks for getting an assist with each banner",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "MantreadsKill": {
+            "description": "Include check for killing someone with the Mantreads",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "ThermalThrusterKill": {
+            "description": "Include check for killing someone with the Thermal Thruster",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "GasPasserKill": {
+            "description": "Include check for getting a kill with the Gas Passer",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "MediGunChecks": {
+            "description": "Include checks for getting assists with each uber",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
+        },
+        "JarateAssist": {
+            "description": "Include check for getting an assist with the Jarate",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        },
+        "SapperDestructions": {
+            "description": "Include checks for destroying a building with each sapper",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": false
+        }
+    }
+}

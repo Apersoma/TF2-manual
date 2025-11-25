@@ -1,0 +1,1263 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "name": "Grappling Hook",
+      "category": [
+        "Misc",
+        "GrappleKill"
+      ],
+      "requires": "{OptOne(Grappling Hook)} AND |@Class Unlocks:1|"
+    },
+    {
+      "name": "Scattergun",
+      "category": [
+        "Scout Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Scattergun)}",
+      "region": "Scout"
+    },
+    {
+      "name": "Force-A-Nature",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Force-A-Nature|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Shortstop",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Shortstop|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Soda Popper",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Soda Popper|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Baby Face's Blaster",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Baby Face's Blaster|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Back Scatter",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Back Scatter|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Pistol (Scout)",
+      "category": [
+        "Scout Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Pistol)} AND {OptOne(Pistol (Scout))}",
+      "region": "Scout"
+    },
+    {
+      "name": "Winger",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Winger|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Pretty Boy's Pocket Pistol",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Pretty Boy's Pocket Pistol|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Flying Guillotine",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Flying Guillotine|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Mad Milk",
+      "category": [
+        "Scout Weapons",
+        "MadMilkAssist"
+      ],
+      "requires": "(|Mad Milk|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Bat",
+      "category": [
+        "Scout Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Bat)})",
+      "region": "Scout"
+    },
+    {
+      "name": "Sandman",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Sandman|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Candy Cane",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Candy Cane|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Boston Basher",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Boston Basher|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Sun-on-a-Stick",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Sun-on-a-Stick|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Fan O'War",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Fan O'War|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Atomizer",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Atomizer|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Wrap Assassin",
+      "category": [
+        "Scout Weapons"
+      ],
+      "requires": "(|Wrap Assassin|)",
+      "region": "Scout"
+    },
+    {
+      "name": "Rocket Launcher",
+      "category": [
+        "Soldier Weapons",
+        "StockLocation"
+      ],
+      "region": "Soldier"
+    },
+    {
+      "name": "Direct Hit",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Direct Hit|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Black Box",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Black Box|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Liberty Launcher",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Liberty Launcher|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Cow Mangler 5000",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Cow Mangler 5000|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Beggar's Bazooka",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Beggar's Bazooka|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Air Strike",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Air Strike|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Shotgun (Soldier)",
+      "category": [
+        "Soldier Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Shotgun)} AND {OptOne(Shotgun (Soldier))}",
+      "region": "Soldier"
+    },
+    {
+      "name": "Reserve Shooter (Soldier)",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Reserve Shooter (Soldier)| OR |Reserve Shooter|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Buff Banner",
+      "category": [
+        "Soldier Weapons",
+        "BannerAssists"
+      ],
+      "requires": "(|Buff Banner|) AND ({YamlDisabled(Stocksanity)} OR |@Soldier (Melees):1| OR |@SoldierDamagingPrimary:1|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Concheror",
+      "category": [
+        "Soldier Weapons",
+        "BannerAssists"
+      ],
+      "requires": "(|Concheror|) AND ({YamlDisabled(Stocksanity)} OR |@Soldier (Melees):1| OR |@SoldierDamagingPrimary:1|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Battalion's Backup",
+      "category": [
+        "Soldier Weapons",
+        "BannerAssists"
+      ],
+      "requires": "(|Battalion's Backup|) AND ({YamlDisabled(Stocksanity)} OR |@Soldier (Melees):1| OR |@SoldierDamagingPrimary:1|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Mantreads",
+      "category": [
+        "Soldier Weapons",
+        "MantreadsKill"
+      ],
+      "requires": "(|Mantreads|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Righteous Bison",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Righteous Bison|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Panic Attack (Soldier)",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Panic Attack (Soldier)| OR |Panic Attack|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Shovel",
+      "category": [
+        "Soldier Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Shovel)})",
+      "region": "Soldier"
+    },
+    {
+      "name": "Equalizer",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Equalizer|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Pain Train (Soldier)",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Pain Train (Soldier)| OR |Pain Train|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Half-Zatoichi (Soldier)",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Half-Zatoichi (Soldier)| OR |Half-Zatoichi|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Disciplinary Action",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Disciplinary Action|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Market Gardener",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Market Gardener|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Escape Plan",
+      "category": [
+        "Soldier Weapons"
+      ],
+      "requires": "(|Escape Plan|)",
+      "region": "Soldier"
+    },
+    {
+      "name": "Flame Thrower",
+      "category": [
+        "Pyro Weapons",
+        "StockLocation"
+      ],
+      "region": "Pyro"
+    },
+    {
+      "name": "Backburner",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Backburner|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Degreaser",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Degreaser|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Phlogistinator",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Phlogistinator|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Dragon's Fury",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Dragon's Fury|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Shotgun (Pyro)",
+      "category": [
+        "Pyro Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Shotgun)} AND {OptOne(Shotgun (Pyro))}",
+      "region": "Pyro"
+    },
+    {
+      "name": "Reserve Shooter (Pyro)",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Reserve Shooter (Pyro)| OR |Reserve Shooter|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Flare Gun",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Flare Gun|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Detonator",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Detonator|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Manmelter",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Manmelter|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Scorch Shot",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Scorch Shot|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Panic Attack (Pyro)",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Panic Attack (Pyro)| OR |Panic Attack|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Thermal Thruster",
+      "category": [
+        "Pyro Weapons",
+        "ThermalThrusterKill"
+      ],
+      "requires": "(|Thermal Thruster|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Gas Passer",
+      "category": [
+        "Pyro Weapons",
+        "GasPasserKill"
+      ],
+      "requires": "(|Gas Passer|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Fire Axe",
+      "category": [
+        "Pyro Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Fire Axe)})",
+      "region": "Pyro"
+    },
+    {
+      "name": "Axtinguisher",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Axtinguisher|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Homewrecker",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Homewrecker|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Powerjack",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Powerjack|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Back Scratcher",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Back Scratcher|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Sharpened Volcano Fragment",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Sharpened Volcano Fragment|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Third Degree",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Third Degree|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Neon Annihilator",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Neon Annihilator|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Hot Hand",
+      "category": [
+        "Pyro Weapons"
+      ],
+      "requires": "(|Hot Hand|)",
+      "region": "Pyro"
+    },
+    {
+      "name": "Grenade Launcher",
+      "category": [
+        "Demoman Weapons",
+        "StockLocation"
+      ],
+      "region": "Demoman"
+    },
+    {
+      "name": "Loch-n-Load",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Loch-n-Load|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Loose Cannon",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Loose Cannon|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Iron Bomber",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Iron Bomber|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Stickybomb Launcher",
+      "category": [
+        "Demoman Weapons",
+        "StockLocation"
+      ],
+      "region": "Demoman"
+    },
+    {
+      "name": "Scottish Resistance",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Scottish Resistance|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Chargin' Targe",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Chargin' Targe|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Splendid Screen",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Splendid Screen|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Tide Turner",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Tide Turner|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Quickiebomb Launcher",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Quickiebomb Launcher|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Bottle",
+      "category": [
+        "Demoman Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Bottle)})",
+      "region": "Demoman"
+    },
+    {
+      "name": "Eyelander",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Eyelander|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Scotsman's Skullcutter",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Scotsman's Skullcutter|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Pain Train (Demoman)",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Pain Train (Demoman)| OR |Pain Train|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Ullapool Caber",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Ullapool Caber|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Claidheamh Mor",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Claidheamh Mor|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Half-Zatoichi (Demoman)",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Half-Zatoichi (Demoman)| OR |Half-Zatoichi|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Persian Persuader",
+      "category": [
+        "Demoman Weapons"
+      ],
+      "requires": "(|Persian Persuader|)",
+      "region": "Demoman"
+    },
+    {
+      "name": "Minigun",
+      "category": [
+        "Heavy Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Minigun)}",
+      "region": "Heavy"
+    },
+    {
+      "name": "Natascha",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Natascha|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Brass Beast",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Brass Beast|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Tomislav",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Tomislav|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Huo-Long Heater",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Huo-Long Heater|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Shotgun (Heavy)",
+      "category": [
+        "Heavy Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Shotgun)} AND {OptOne(Shotgun (Heavy))}",
+      "region": "Heavy"
+    },
+    {
+      "name": "Family Business",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Family Business|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Panic Attack (Heavy)",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Panic Attack (Heavy)| OR |Panic Attack|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Fists",
+      "category": [
+        "Heavy Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Fists)})",
+      "region": "Heavy"
+    },
+    {
+      "name": "Killing Gloves of Boxing",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Killing Gloves of Boxing|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Gloves of Running Urgently",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Gloves of Running Urgently|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Warrior's Spirit",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Warrior's Spirit|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Fists of Steel",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Fists of Steel|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Eviction Notice",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Eviction Notice|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Holiday Punch",
+      "category": [
+        "Heavy Weapons"
+      ],
+      "requires": "(|Holiday Punch|)",
+      "region": "Heavy"
+    },
+    {
+      "name": "Shotgun (Engineer)",
+      "category": [
+        "Engineer Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Shotgun)} AND {OptOne(Shotgun (Engineer))}",
+      "region": "Engineer"
+    },
+    {
+      "name": "Frontier Justice",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Frontier Justice|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Widowmaker",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Widowmaker|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Pomson 6000",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Pomson 6000|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Rescue Ranger",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Rescue Ranger|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Panic Attack (Engineer)",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Panic Attack (Engineer)| OR |Panic Attack|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Pistol (Engineer)",
+      "category": [
+        "Engineer Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Pistol)} AND {OptOne(Pistol (Engineer))}",
+      "region": "Engineer"
+    },
+    {
+      "name": "Wrangler",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Wrangler|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Short Circuit",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Short Circuit|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Wrench",
+      "category": [
+        "Engineer Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Wrench)})",
+      "region": "Engineer"
+    },
+    {
+      "name": "Gunslinger",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Gunslinger|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Southern Hospitality",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Southern Hospitality|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Jag",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Jag|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Eureka Effect",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "requires": "(|Eureka Effect|)",
+      "region": "Engineer"
+    },
+    {
+      "name": "Sentry Gun",
+      "category": [
+        "Engineer Weapons"
+      ],
+      "region": "Engineer"
+    },
+    {
+      "name": "Syringe Gun",
+      "category": [
+        "Medic Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Syringe Gun)}",
+      "region": "Medic"
+    },
+    {
+      "name": "Blutsauger",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Blutsauger|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Crusader's Crossbow",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Crusader's Crossbow|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Overdose",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Overdose|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Medi Gun",
+      "category": [
+        "Medic Weapons",
+        "MediGunChecks",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Medi Gun)}",
+      "region": "Medic"
+    },
+    {
+      "name": "Kritzkrieg",
+      "category": [
+        "Medic Weapons",
+        "MediGunChecks"
+      ],
+      "requires": "(|Kritzkrieg|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Quick-Fix",
+      "category": [
+        "Medic Weapons",
+        "MediGunChecks"
+      ],
+      "requires": "(|Quick-Fix|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Vaccinator",
+      "category": [
+        "Medic Weapons",
+        "MediGunChecks"
+      ],
+      "requires": "(|Vaccinator|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Bonesaw",
+      "category": [
+        "Medic Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Bonesaw)})",
+      "region": "Medic"
+    },
+    {
+      "name": "Ubersaw",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Ubersaw|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Vita-Saw",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Vita-Saw|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Amputator",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Amputator|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Solemn Vow",
+      "category": [
+        "Medic Weapons"
+      ],
+      "requires": "(|Solemn Vow|)",
+      "region": "Medic"
+    },
+    {
+      "name": "Sniper Rifle",
+      "category": [
+        "Sniper Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Sniper Rifle)}",
+      "region": "Sniper"
+    },
+    {
+      "name": "Huntsman",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Huntsman|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Sydney Sleeper",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Sydney Sleeper|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Bazaar Bargain",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Bazaar Bargain|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Machina",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Machina|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Hitman's Heatmaker",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Hitman's Heatmaker|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Classic",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Classic|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "SMG",
+      "category": [
+        "Sniper Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(SMG)}",
+      "region": "Sniper"
+    },
+    {
+      "name": "Cleaner's Carbine",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Cleaner's Carbine|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Jarate",
+      "category":  [
+        "Sniper Weapons",
+        "JarateAssist"
+      ],
+      "requires": "(|Jarate|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Kukri",
+      "category": [
+        "Sniper Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Kukri)})",
+      "region": "Sniper"
+    },
+    {
+      "name": "Tribalman's Shiv",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Tribalman's Shiv|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Bushwacka",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Bushwacka|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Shahanshah",
+      "category": [
+        "Sniper Weapons"
+      ],
+      "requires": "(|Shahanshah|)",
+      "region": "Sniper"
+    },
+    {
+      "name": "Revolver",
+      "category": [
+        "Spy Weapons",
+        "StockLocation"
+      ],
+      "requires": "{OptOne(Revolver)}",
+      "region": "Spy"
+    },
+    {
+      "name": "Ambassador",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Ambassador|)",
+      "region": "Spy"
+    },
+    {
+      "name": "L'Etranger",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|L'Etranger|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Enforcer",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Enforcer|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Diamondback",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Diamondback|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Sapper",
+      "category": [
+        "Spy Weapons",
+        "SapperDestructions",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Sapper)})",
+      "region": "Spy"
+    },
+    {
+      "name": "Red-Tape Recorder",
+      "category": [
+        "Spy Weapons",
+        "SapperDestructions"
+      ],
+      "requires": "|Red-Tape Recorder|",
+      "region": "Spy"
+    },
+    {
+      "name": "Knife",
+      "category": [
+        "Spy Weapons",
+        "StockLocation"
+      ],
+      "requires": "({OptOne(Knife)})",
+      "region": "Spy"
+    },
+    {
+      "name": "Your Eternal Reward",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Your Eternal Reward|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Conniver's Kunai",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Conniver's Kunai|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Big Earner",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Big Earner|)",
+      "region": "Spy"
+    },
+    {
+      "name": "Spy-cicle",
+      "category": [
+        "Spy Weapons"
+      ],
+      "requires": "(|Spy-cicle|)",
+      "region": "Spy"
+    },
+    {
+      "victory": true,
+      "name": "Hit Required Kill Counts",
+      "category": [],
+      "requires": "({GoalInLogic()})"
+    }
+  ]
+}
